@@ -1,0 +1,58 @@
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Textarea Styles */
+textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  resize: none;
+  transition: border-color 0.3s;
+}
+
+textarea:focus {
+  border-color: #0056b3;
+  outline: none;
+}
+
+/* Button Styles */
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Dropdown Styles */
+.multiselect-container {
+  border-radius: 5px;
+}
+
+/* Error Message Styles */
+p {
+  color: red;
+  font-weight: bold;
+}
+
+/* Filtered Response Styles */
+h3 {
+  margin-top: 20px;
+}
